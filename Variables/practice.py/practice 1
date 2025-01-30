@@ -1,0 +1,23 @@
+#river stanley, variables practice
+
+name = input("river")
+
+numberten = ("3")
+
+numberhunderd = ("79")
+
+breakfast =("ceral")
+
+favcolor=("purple")
+
+school=("ucas")
+
+date = ("2025")
+
+eyecolor = ("blue")
+
+age = ("15")
+
+subject = ("science")
+
+print(name, "likes the number", numberhunderd)
