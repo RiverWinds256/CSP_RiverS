@@ -1,6 +1,6 @@
 #river stanley, variables practice
 
-name = input("river")
+name = ("river")
 
 numberten = ("3")
 
@@ -20,4 +20,14 @@ age = ("15")
 
 subject = ("science")
 
-print(name, "likes the number", numberhunderd)
+print(name, "likes the number", numberhunderd, "and the number", numberten )
+
+print(name, "had", breakfast, "for breakfast")
+
+print(name, "goes to school at", school, "in the year", date)
+
+print(name, "is", age, "with", eyecolor,"eyes")
+
+print(name, "likes the color", favcolor)
+
+print(name, "likes", subject)
