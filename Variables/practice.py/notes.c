@@ -1,13 +1,22 @@
 #include <stdio.h>
 
-char name [] = "river";
-int age = 15;
- float pi = 3.14;
+
+
 
 int main(void){
-    printf("Hello I am%s/n", name);
-    printf("%d/n", age);
-   printf("%f\n", pi);
+    char name[] = "river";
+    int year = 2025;
+    int age = 15;
+    int number100 = 79;
+    int number10 = 3;
+    char food[] = "ceral";
+    char color [] = "purple";
+    char eyecolor [] = "blue eyes";
+    char schoolname [] = "ucas";
+    char subject [] = "science";
+    printf("%s, %d, %d, %d, %d, %s, %s, %s, %s, %s", name, year, age, number100, number10, food, color, eyecolor, schoolname, subject);
+   
    
 return 0;
 }
+
