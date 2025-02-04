@@ -29,3 +29,5 @@ print(num)
 num**=2
 
 print(num)
+
+pi = 3.14159

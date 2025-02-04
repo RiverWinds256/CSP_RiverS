@@ -1,24 +1,24 @@
 #river stanley, variables practice
 
-name = ("river")
+name = "river"
 
-numberten = ("3")
+numberten = "3"
 
-numberhunderd = ("79")
+numberhunderd = "79"
 
-breakfast =("ceral")
+breakfast ="ceral"
 
-favcolor=("purple")
+favcolor="purple"
 
-school=("ucas")
+school="ucas"
 
-date = ("2025")
+date = "2025"
 
-eyecolor = ("blue")
+eyecolor = "blue"
 
-age = ("15")
+age = "15"
 
-subject = ("science")
+subject = "science"
 
 print(name, "likes the number", numberhunderd, "and the number", numberten )
 
