@@ -1,4 +1,4 @@
-// River Stanley TEMPLATE
+// River Stanley Expression practice
 
 
 #include <stdio.h>
