@@ -1,4 +1,4 @@
-//River Stanley c pratice
+//River Stanley c first program
 #include <stdio.h>
 
 int main(void){
