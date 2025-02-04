@@ -1,6 +1,10 @@
+<<<<<<<< HEAD:Variables/Practice1.c
 #RiverStanleypytonpractice 
 
 
+========
+//River Stanley c pratice
+>>>>>>>> 1afc2e6860648a1be7dc15358bd380168bcd17ca:Variables/practice.c
 #include <stdio.h>
 
 int main(void){
@@ -10,4 +14,3 @@ int main(void){
     printf("hello %s", name);
 return 0;
 }
-
