@@ -1,10 +1,12 @@
+// River, Stanley, TEMPLATE
+
 #include <stdio.h>
 
 
 
 
 int main(void){
-    char name[] = "river";
+    char name[20] = "river";
     int year = 2025;
     int age = 15;
     int number100 = 79;
