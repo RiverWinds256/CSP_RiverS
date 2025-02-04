@@ -1,4 +1,4 @@
-// River, Stanley, TEMPLATE
+// River, Stanley, variables practice
 
 #include <stdio.h>
 
