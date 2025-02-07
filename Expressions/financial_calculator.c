@@ -1,50 +1,47 @@
-// River Stanley financial calculator
+// River Stanley financial calculator C
 
 #include <stdio.h>
 
 int main(void){
     printf("welcome to the financial calculator\n");
 
-    float income, rent, utilities, groceries, transportaition, savings;
+    float income, rent, utilities, groceries, transportaition;
 
     printf("what is your income? ");
     scanf("%f", &income);
 
-    printf("your income is %f\n", income);
-    
+    printf("what is your rent? ");
+    scanf("%f", &rent);
 
-     //monthy income (variable, an input)
+    printf("what is your utilities cost? ");
+    scanf("%f", &utilities);
 
-     // rent (variable, an input)
+    printf("what is your groceries cost? ");
+    scanf("%f", &groceries);
 
-     //utilities (variable, an input) Water, electrity, gas
+    printf("what is your ransportaition cost? ");
+    scanf("%f", &transportaition);
+  
 
-     //groceries (variable, and input)
+    float savings=income*0.1;
+    float spending=income-rent-utilities-groceries-transportaition;
+    float rentpercent=rent/income*100;
+    float utilitiespercent=utilities/income*100;
+    float groceriespercent=groceries/income*100;
+    float transportationpercent=transportaition/income*100;
 
-     //transportaition(variable, an input) car payments, gas, etc
 
-     //calculate saving income*0.1 (variable, output)
+     printf("Your rent is %.2f dollars which is %.2f percent of your income\n\n", rent, rentpercent);
 
-      //caluclate spending, income-saving-all variables
+     printf("Your utilities cost is %.2f dollars which is %.2f percent of your income\n\n", utilities, utilitiespercent);
 
-    //income rent over income *100 (variable)
+     printf("Your groceries cost is %.2f dollars which is %.2f percent of your income\n\n", groceries, groceriespercent);
 
-     //income utilities over income *100 (variable)
+     printf("Your transportaition cost is %.2f dollars which is %.2f percent of your income\n\n", transportaition, transportationpercent);
+     
+     printf("Your ideal savings would be %.2f which is 10 percent of your income\n\n", savings);
 
-      //income groceries over income *100 (variable)
-
-       //income transportation over income *100 (variable)
-
-     //percent spending (variable)
-
-     //your rent is xxx.xxx, which is % of your income
-
-     //your utilities is xxx.xxx, which is % of your income
-
-     //your groceries is xxx.xxx, which is % of your income
-
-     //your transport is xxx.xxx, which is % of your income
-
+    printf("Your leftover spending money is %.2f dollars\n\n");
 
 return 0;
 }
