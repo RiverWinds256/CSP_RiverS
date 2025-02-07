@@ -38,3 +38,7 @@ print("your ideal saving amount would be 10% of your income which would be", sav
 
 print("what you have left is to spend is",spending,"$\n")
 
+if spending<0: print("you are in debt, skill issue")
+if saving<0: print ("you cannot save right now, you dont have enough money")
+
+
