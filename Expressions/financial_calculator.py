@@ -34,13 +34,7 @@ print("your groceries cost is", groceries, "$ which is", groceriespercent, "% of
 
 print("your transportation cost is", transportation, "$ which is ", transportaionpercent, "% of your income\n")
 
-print("your ideal saving amount would be 10% of your income which would be", saving, ("$"))
-if saving<0:
-#saving=income*0.1
+print("your ideal saving amount would be 10% of your income which would be", saving, ("$\n"))
 
-
-
-
-#if spending<0: print("lol you're in debt ")
-
+print("what you have left is to spend is",spending,"$\n")
 
