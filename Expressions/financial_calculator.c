@@ -3,9 +3,15 @@
 #include <stdio.h>
 
 int main(void){
-    printf("Hello World");
+    printf("welcome to the financial calculator\n");
 
-     //welcome statment
+    float income, rent, utilities, groceries, transportaition, savings;
+
+    printf("what is your income? ");
+    scanf("%f", &income);
+
+    printf("your income is %f\n", income);
+    
 
      //monthy income (variable, an input)
 
