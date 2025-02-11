@@ -41,7 +41,7 @@ int main(void){
      
      printf("Your ideal savings would be %.2f which is 10 percent of your income\n\n", savings);
 
-    printf("Your leftover spending money is %.2f dollars\n\n");
+    printf("Your leftover spending money is %.2f dollars\n\n", spending);
 
 return 0;
 }
