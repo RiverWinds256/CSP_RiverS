@@ -24,7 +24,7 @@ int main(void){
   
 
     float savings=income*0.1;
-    float spending=income-rent-utilities-groceries-transportaition;
+    float spending=income-rent-utilities-groceries-transportaition-savings;
     float rentpercent=rent/income*100;
     float utilitiespercent=utilities/income*100;
     float groceriespercent=groceries/income*100;
@@ -41,7 +41,7 @@ int main(void){
      
      printf("Your ideal savings would be %.2f which is 10 percent of your income\n\n", savings);
 
-    printf("Your leftover spending money is %.2f dollars\n\n");
+    printf("Your leftover spending money is %.2f dollars\n\n", spending);
 
 return 0;
 }
