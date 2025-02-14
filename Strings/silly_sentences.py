@@ -11,3 +11,4 @@ print("The living breathing", word1, "had came alive and escaped", word2, "in ho
 
 print("Wish them luck")
 input("")
+print("The", word1, "thanks you before skipping off into the sunset.")
