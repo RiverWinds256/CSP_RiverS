@@ -1,7 +1,6 @@
 # River Stanley, silly sentences
 
 print("Welcome to the silly sentences!")
-print("Please keep responses to one word")
 
 word1 = (input("What is your favorite food? "))
 word2 = (input("What is your favorite resaurant? "))
