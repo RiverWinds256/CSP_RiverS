@@ -5,6 +5,8 @@
 int main(void){
     printf("welcome to the financial calculator\n");
 
+    
+
     float income, rent, utilities, groceries, transportaition;
 
     printf("what is your income? ");
