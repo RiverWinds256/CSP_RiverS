@@ -6,18 +6,15 @@ def info(cost, income, type):
 
 print("welcome to the finance calculator")
 
-def user():
-    float(input("how much do you spend on rent? "))
+def spend(type):
+    return float(input(f"How much do you spend on {type}? "))
+    
 
 income=float(input("what is your income? "))
-
-rent=float(input("how much do you spend on rent? "))
-
-utilities=float(input("how much do you spend on utities? "))
-
-groceries=float(input("how much do you spend on groceries? "))
-
-transportation=float(input("how much do you spend on transportation? "))
+rent=spend("rent")
+utilities=spend("utilities")
+groceries=spend("groceries")
+transportation=spend("transportation")
 
 spending=income-rent-utilities-groceries-transportation
 saving=income*0.1
@@ -27,7 +24,6 @@ info(utilities, income, "utities")
 info(groceries, income, "groceries")
 info(transportation, income, "transportation")
 info(spending, income, "spending")
-print("")
 
 print("your ideal saving amount would be 10% of your income which would be", saving, ("$\n"))
 
