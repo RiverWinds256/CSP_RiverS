@@ -32,7 +32,7 @@ else:
 
 #4 What do else statements do?
 
-#if boolean is false, thing happens
+    #if boolean is false, thing happens
 name=input("what is your name:\n") 
 if name== "laRose": 
     print("Hi Ms. LaRose")
@@ -44,7 +44,7 @@ else:
 #5 What kind of statement do you use if you have more than 2 needed outcomes?
 
 num = input("how many cookies are there? ")
-#computers read things up to down, put least likely first than most  
+    #computers read things up to down, put least likely first than most  
 
 if num == 0: # <- if always starts the conditional
     print("there are none.")
@@ -56,6 +56,8 @@ elif num <4:
     print("there is a couple")
 
 elif num < 10: 
+    if num==8:
+        print("this prints at 8")
     ("there are a few")
 
 else: # <- ends the condirional
@@ -93,16 +95,13 @@ elif not num  < 10: #Not cahnges to check if false
 
 
 
-#What does a nested conditional statement do?
+#9 What does a nested conditional statement do?
+    #conditonal in another one, only checked if the first one is true. Never go past 3 
 
 if num <10: 
     if num == 8:
         print ("this prints at 8")
     else: 
-        print ("i didnt get this")    
+        if num == 4: 
+            print ("i didnt get this")    
 
-
-#How do you write an if statement in C?
-#How do you write else statements in C?
-#How do you write elif/ else if statements in C?
-#How do you write the 3 logical operators in C?
