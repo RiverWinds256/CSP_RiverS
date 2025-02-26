@@ -9,19 +9,19 @@ int main(void){
     scanf("%d", & age);
 
     if (age >=18)   
-        printf("You are old enough to go to school, get a learner permit, drive and vote.");
+        printf("You are old enough to vote.");
 
     else if (age >=16) 
-        printf("You are old enough to go to school, get a learner permit, drive, but not vote");    
+        printf("You are old enough to drive.");    
 
     else if (age >=15)
-        printf("You are old enough to go to school, get a learner permit, but not drive and vote.");
+        printf("You are old enough to get a learner permit.");
 
     else if (age >5)
-        printf("you are old enough to go to school, but not old enough get a learners permit, drive, or vote.") ; 
+        printf("you are old enough to go to school.") ; 
     
     else
-        printf("you are not old enough go to school, get a learners permit, drive, or vote");
+        printf("you are not old enough go to school");
     
 
 return 0;
