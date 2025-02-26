@@ -56,7 +56,9 @@ if (num==7 || num== 13){
     
 
 else
-printf("you must ")
+printf("you must ");
+
+else if (!num= <10 )
 
 return 0;
 }
