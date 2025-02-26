@@ -1,6 +1,6 @@
 # River Stanley Old Enough python
 
-print("welcome to the are you old enough cal")
+print("welcome to the are you old enough calculator")
 
 age=float(input("How old are you? "))
 
@@ -15,8 +15,6 @@ elif age >=15:
 
 elif age >5:
     print ("you are old enough to go to school, but not old enough get a learners permit, drive, or vote.")  
-
-elif age>=15:
-     print("print")    
+   
 else:
      print("you are not old enough go to school, get a learners permit, drive, or vote")     
