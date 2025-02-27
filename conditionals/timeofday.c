@@ -5,7 +5,7 @@
 #include <time.h>
 
 int main(void){
-    printf("Welcome");
+    printf("Welcome, ");
     time_t seconds;
     seconds = time(NULL);
     time_t rawtime;
@@ -17,12 +17,12 @@ int main(void){
     int hour = tm_struct->tm_hour;
 
 if (hour<12){
-    printf("Good morning\n");
+    printf("good morning\n");
     
-}else if (hour<18){
-    printf("Good afternoon\n");
+}else if (12<=hour<18){
+    printf("good afternoon\n");
 }else {
-    printf("Good evening");
+    printf("good evening\n");
 }
 
 
