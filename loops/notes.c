@@ -58,7 +58,7 @@ int main(void){
     }
     int m; 
     for(m=0;m<mlength;m++){
-        printf("s\n", movies [movies[m]]);
+        printf("s\n", movies[m]);
     }
 //10 How do you make while loops in C?
 int w = 0;//start point
