@@ -1,4 +1,4 @@
-// River Stanley TEMPLATE
+// River Stanley FIZZBUZZ C
 
 
 #include <stdio.h>
