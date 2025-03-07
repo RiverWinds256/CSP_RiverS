@@ -6,20 +6,17 @@
 
 int main(void){
    
-int x; {
- for(x=0;x<51;x++)
- }  
- printf("%d\n", x);
-for x[][] in range(0,51):
-int i;
-    if x%5 ==0 and x%3 ==0:
-        print("fizzbuzz");
-    else if  x%5 ==0:
-        printf("buzz");
-    else if x%3 ==0:
-        printf("fizz");
-    else: 
-        printf(x)
-
+    int x;
+    for(x=0; x<51; x++){
+        if (x%5 ==0 && x%3 ==0){
+            printf("fizzbuzz\n");
+        }else if (x%5 ==0){
+            printf("buzz\n");
+        }else if (x%3 ==0){
+            printf("fizz\n");
+        }else{
+            printf("%d\n",x);
+        }
+    }
 return 0;
 }
