@@ -20,17 +20,21 @@
 #Lila results EX: The customer loved your (size, flavor, topping) cake! The custom demanded a refund as their cake was over/under baked
 
 
-shape=input("What kind of kind of cake will you bake? A circle cake, a square cake or cupcakes?\n").strip()
+shape=input("What kind of kind of cake will you bake? A circle cake, a square cake or cupcakes?").strip()
 if shape!="circle" and shape!="square" and shape!="cupcakes":
      print("We dont have that kind of cakepan")     
 
-temp=input("What temperature will you set the oven?")   
+temp=input("What temperature will you set the oven?\n")   
 if temp>=320 and temp<=375: 
+    temp=1
     print("Your cake is perfectly baked")
 elif temp<319:
+     temp=0
      print("Your cake is a bit unbaked")
 elif temp>=400 and temp<=420:
+     temp=2
      print("Your cake is burnt")   
 else:
      print("The oven has lit on fire and burned down the bakery, game over")
      exit()
+print (temp)
