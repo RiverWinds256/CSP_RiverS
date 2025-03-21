@@ -20,26 +20,42 @@
 #Lila results EX: The customer loved your (size, flavor, topping) cake! The custom demanded a refund as their cake was over/under baked
 
 
-shape=input("What kind of kind of cake will you bake? A circle cake, a square cake or cupcakes?").strip()
-if shape!="circle" and shape!="square" and shape!="cupcakes":
-     print("We dont have that kind of cakepan\n")     
+#shape=input("What kind of kind of cake will you bake? A circle cake, a square cake or cupcakes?").strip()
+#if shape!="circle" and shape!="square" and shape!="cupcakes":
+     #print("We dont have that kind of cakepan\n")     
+
+#temp=input("What temperature will you set the oven?\n")   
+#if temp>=320 and temp<=375: 
+    #temp=1
+#temp=input("What temperature will you set the oven?\n")   
+#if temp<320:
+     #print("Your cake hasn't baked")
+#elif temp<319:
+     #print("Your cake is a little undercooked but it will work\n")
+#elif temp>=320 and temp<=375: 
+   # print("Your cake is perfectly baked")
+#elif temp<319:
+   #  temp=0
+    # print("Your cake is a bit unbaked")
+#elif temp>=400 and temp<=420:
+     #temp=2
+     #print("Your cake is a little burnt but it will work\n")   
+#else:
+#     print("The oven has lit on fire and burned down the bakery, game over")
+    # exit()
+#print (temp)
+
 
 temp=input("What temperature will you set the oven?\n")   
 if temp>=320 and temp<=375: 
-    temp=1
-temp=input("What temperature will you set the oven?\n")   
-if temp<320:
-     print("Your cake hasn't baked")
+    temp=2
+    print("Your cake is perfect!")
 elif temp<319:
+     temp = 1
      print("Your cake is a little undercooked but it will work\n")
-elif temp>=320 and temp<=375: 
-    print("Your cake is perfectly baked")
-elif temp<319:
-     temp=0
-     print("Your cake is a bit unbaked")
-elif temp>=400 and temp<=420:
-     temp=2
-     print("Your cake is a little burnt but it will work\n")   
+elif temp<375:
+     temp=3
+     print("Your cake is a little overcooked but it will work\n")   
 else:
      print("The oven has lit on fire and burned down the bakery, game over")
      exit()
