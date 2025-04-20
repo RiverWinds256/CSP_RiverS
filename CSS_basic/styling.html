@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <meta charset="'UTF-8">
-
-        <title>Styling</title>
-            
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Styling with ~COLOR~
+        </title>
         <style>
-#complementary{
-
-color:aquamarine;
-background-color: bisque;
-boarder-style: black soild
-border-color: blue;
-
-}
-
+            .complementary{
+                height: 100px;
+                width: 100px; 
+                border: 10px solid yellow;
+                background-color: purple;
+            }
+            .analogous{
+                height: 100px;
+                width: 100px; 
+                color:rgb(136, 45, 96);
+                border: 10px solid rgb(170, 57, 57);
+                background-color: rgb(170, 108, 57);
+            }
+            .triadic{
+                height: 100px;
+                width: 100px; 
+                color: rgb(147, 69, 100);
+                border: 10px solid rgb(56, 85, 111);
+                background-color: rgb(172, 157, 81);
+            }
         </style>
-
     </head>
-
-
-<body> 
-    <p>
-
-        <div id = "complementary">
-This is complementary
-
-         </div>
-
-        <div id = "analogous">
-this is analogous
-
-         </div>
-
-    
-         <div id = "triadic">
-this is triadic
+    <body>
+        <h1>CSS styling with color</h1>
+        <div class="analogous">
+            <p>Analogous colors</p>
         </div>
-
-     </p>
-
-
-     </body>
+        <div class="triadic">
+            <p>Triadic colors</p>
+        </div>
+        <div class="complementary">
+            <p>Complementary colors</p>
+        </div>
+    </body>
 </html>
