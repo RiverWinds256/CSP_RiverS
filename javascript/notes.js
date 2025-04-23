@@ -13,7 +13,8 @@ function change(){
 }
 
 function hello(){
-    document.getElementById("title").innerHTML = "Hello World!"
+    let name = window.prompt("what is your name?")
+    document.getElementById("title").innerHTML = "Hello" + name + "!"
 }
 function hover(){
     document.getElementById
@@ -22,4 +23,10 @@ function hover(){
 function leave(){
     document.getElementById
     ("img").src = "https://t4.ftcdn.net/jpg/11/55/89/89/360_F_1155898967_OroAp8ja1bGnN5PqE1usF6oIKfWWDRcS.jpg"
+}
+function hidden(){
+    document.getElementById("meme").style.display = "block"
+    function Pop(){
+        window.alert("really dont click thast")
+    }
 }
