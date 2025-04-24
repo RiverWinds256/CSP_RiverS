@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head> 
+        <script src="hiddenimage.js"></script>
+
+        
         <meta charset="'UTF-8">
         <title>Basic webpage 1</title>
      </head>
      <body> 
         <h1>The basic webpage</h1>
         <h2>Pickles are great </h2>
-        <img src= "https://www.wellplated.com/wp-content/uploads/2023/07/Quick-Refrigerator-Pickles.jpg" alt="pickles"height="100px"> 
+    
+        <img src= "https://www.wellplated.com/wp-content/uploads/2023/07/Quick-Refrigerator-Pickles.jpg" alt="pickles"height="100px" id="hidden" style="display: none;"> 
         <small></small><dt>Image from: well platedd<dt><small></small>
         <br>
         <h2> Why?</h2>
@@ -16,7 +20,7 @@
             <li>salt</li>
             <li>sodium</li>
             <li>vineger</li>
-            <li>more vinerger</li>
+            <li onmouseover="appear()">more vinerger</li>
             
           </ol>
           <p> The real wonder of pickles is the heart disease we get along the way.</p>
