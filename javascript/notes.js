@@ -1,32 +1,44 @@
-let images = ["https://t4.ftcdn.net/jpg/11/55/89/89/360_F_1155898967_OroAp8ja1bGnN5PqE1usF6oIKfWWDRcS.jpg", "https://t4.ftcdn.net/jpg/11/55/89/89/360_F_1155898967_OroAp8ja1bGnN5PqE1usF6oIKfWWDRcS.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg"]
+//function hello(){
+  //  document.getElementById("title").style.color = "orange"
+//}
+let images = ["https://d.newsweek.com/en/full/2362759/tiger-snake.jpg", "https://i.guim.co.uk/img/media/3bf8012a51364fb0ccfae224b4c6465cd9cdbf12/229_433_3485_2090/master/3485.jpg?width=465&dpr=1&s=none&crop=none", "https://fl.audubon.org/sites/default/files/styles/article_hero_inline/public/page_6_stephen_kintner_scrub-jay-.jpg?itok=ZtnOipER"]
+
 let counter = 0
 
 function change(){
     if (counter < images.length){
-        document.getElementById("img").
-        src = images[counter] 
-        counter += 1
-    }else{
-        counter = 0
-        document.getElementById("img").src = images[counter]
+        document.getElementById("img").src=images[counter] 
+        counter +=1
+    }
+    else{
+        counter=0
+        document.getElementById("img").src=images[counter]
     }
 }
 
+//function hello(){
+//    document.getElementById("title").innerHTML = "Hello World!"
+//}
+
 function hello(){
-    let name = window.prompt("what is your name?")
-    document.getElementById("title").innerHTML = "Hello" + name + "!"
+    let name = window.prompt("What is your name? ", "Enter text here")
+    document.getElementById("title").innerHTML = "Hello, " + name + "!"
 }
+
+
+
 function hover(){
-    document.getElementById
-    ("img").src = "https://t4.ftcdn.net/jpg/11/55/89/89/360_F_1155898967_OroAp8ja1bGnN5PqE1usF6oIKfWWDRcS.jpg"
+    document.getElementById("img").src = "https://cdn.britannica.com/07/5207-050-5BC9F251/Gray-wolf.jpg"
 }
+
 function leave(){
-    document.getElementById
-    ("img").src = "https://t4.ftcdn.net/jpg/11/55/89/89/360_F_1155898967_OroAp8ja1bGnN5PqE1usF6oIKfWWDRcS.jpg"
+    document.getElementById("img").src = "https://www.pbs.org/wnet/nature/files/2014/10/HoneyBadger-Main-e1415392112925-1280x720.jpg"
 }
-function hidden(){
-    document.getElementById("meme").style.display = "block"
-    function Pop(){
-        window.alert("really dont click thast")
-    }
+
+function show(){
+    document.getElementById("lost").style.display = "block"
+}
+//You cannot unhide this by calling it on the image. You have to attach it somewhere else.
+function pop(){
+    window.alert("Really, don't click that.")
 }

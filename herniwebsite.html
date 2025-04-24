@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head> 
+
+      <script src="herniwebsite.js">
+    
+      </script>
+
         <meta charset="'UTF-8">
         <title>The Spaniel</title>
 
@@ -41,14 +46,7 @@
         justify-content: center; 
         align-content: center;
       }
-    #more {
-      background-image:url(https://www.akc.org/wp-content/uploads/2020/09/Cavalier-King-Charles-Spaniel-History-07.jpg);
-          width: 400px;
-          height: 299px;
-          margin: 2px;
-
-
-    }    
+        
 
       #fav{
         display: flex;
@@ -57,7 +55,6 @@
       }
 
         </style>
-        
          </head>
 
          <body> 
@@ -78,8 +75,8 @@
         <div id="photos">
 
 
-       <div id = "more">
-        <img src= "https://www.akc.org/wp-content/uploads/2020/09/a-gaggle-of-cavs.png" alt="early Cavalier Spaniels"> 
+       <div>
+        <img src= "https://www.akc.org/wp-content/uploads/2020/09/a-gaggle-of-cavs.png" alt="early Cavalier Spaniels" onmouseover="point(this)" onmouseleave="leave(this)"> 
         <p id = "img_text">Image From: American Kennel Club<p>
         </div>
 
@@ -109,7 +106,21 @@
          <li>small tennis balls</li>
         </ol>
       </div>
-       
+       <button onclick="toggle">I dont care</button>
+      <div id="hidden">
+        <img src="henri.jpeg">
+
+        <p> Hernis easter photos (inset more text later) </p>
+  
+  
+  
+  
+  
+  
+      </div>
+
+      
+  
         
      </body>
 </html>

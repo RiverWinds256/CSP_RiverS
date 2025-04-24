@@ -2,27 +2,30 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Javascript Notes</title>
+        <title>JavaScript Notes</title>
         <script src="notes.js"></script>
         <style>
             img{
-                height: 100px;
+                height: 200px;
                 width: auto;
             }
-            #meme{
+            #lost{
                 display: none;
             }
         </style>
-        </head>
-        <body>
-            <h1 id="title" onclick="hidden()">Javascript Notes</h1>
-            <p onclick="pop"></p> dont click me</p>
-            <button id="btn" onclick="hello()">Click me!</button>
-            <br>
-            <img id="img" onmouseover="change()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg" alt="cats">
-            <br>
-            <img id="meme" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeWVKe-aMYqXpsb1Ow5n1QVfBz1HfEbCqaZA&s" alt="meme">
+    </head>
+    <body>
+        <h1 id="title" onclick="show()" >JavaScript Notes</h1>
+        <p onclick="pop()">Don't Click Me :[</p>
+        <button id="btn" onclick="hello()">Click Me!</button>
+        <br>
+        <img id="img" 
+        onmouseover="change()"
+        src="https://www.pbs.org/wnet/nature/files/2014/10/HoneyBadger-Main-e1415392112925-1280x720.jpg" alt="honey badger">
+        <br>
+        <img id=lost src="https://images.squarespace-cdn.com/content/v1/5f848386168b1f0d06746205/1609440381754-DTY85IZXLP68KTH32WUB/pexels-cajko-423604.jpg" alt="dandelion">
+    </body>
+</html>
 
-            
-        </body>
-    </html>
+
+<!-- onmouseenter = "hover()" onmouseleave = "leave()
