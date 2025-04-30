@@ -9,10 +9,12 @@
          <style>
 
         #epiclist{
+            text-align: center;
                 background-color: rgb(235, 235, 244);
             }
 
         #calmlist{
+            text-align: center;
             background-color: rgb(232, 238, 242)
         }    
 
@@ -30,11 +32,18 @@
                 font-weight: bold;
                 background-color: rgb(255, 231, 201)
             }
-            #dry{ width: 10px;
-                
-          
+            #dry{
+
             }
             
+            .flexNext {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                gap:5px;
+                
+            }
 
 
 
@@ -51,51 +60,54 @@
     
         </div>
 
+        <div id="dry">
+        <img src="https://www.nps.gov/common/uploads/banner_image/imr/homepage/48CFD420-1DD8-B71B-0B3250F8209F782D.jpg" alt="Canyonlands" style="width: 100%; height: auto;">
+        
+        </div>
+
         <p>Canyonlands is a beautiful national park located in southeastern Utah near moab. With many acres of picturesque land, vibrant canyons, arches, buttes and much more, Canyonlands is a memorable place to visit. The park has nearly 337,598 acres of eye-catching landscapes, and plenty of recreational activities for the whole family. </p>
         <br>
 
 
-        <div id="sunset">
-            <img src="https://www.usatoday.com/gcdn/-mm-/f88e274f32b02d150d766347a9ca85b076b08a42/c=0-48-1200-726/local/-/media/2017/03/10/USATODAY/USATODAY/636247487133589675-Canyonlands-from-Green-River-Overlook-Tom-Till.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp" alt="Canyonlands">
+        <div id="sunset" class="flexNext">
+            <img src="https://www.usatoday.com/gcdn/-mm-/f88e274f32b02d150d766347a9ca85b076b08a42/c=0-48-1200-726/local/-/media/2017/03/10/USATODAY/USATODAY/636247487133589675-Canyonlands-from-Green-River-Overlook-Tom-Till.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp" alt="Canyonlands"><div>
+
+                <div id="epiclist">
+                    <h3>Activities for the adventurous </h3>
         </div>
-
-        <div id="dry">
-        <img src="https://www.nps.gov/common/uploads/banner_image/imr/homepage/48CFD420-1DD8-B71B-0B3250F8209F782D.jpg" alt="Canyonlands">
-        </div>
-
-
-        <div id="epiclist">
-            <h3>Activities for the adventurous </h3>
-</div>
-
-        <ul>
-            <li>River Rafting on Cataract Canyon, a rapid and intense ride (River permit required)</li>
-            <li>Rock Climbing in islands of the sky</li>
-            <li>The needles district, rugged terrain perfect for experienced backpackers and hikers </li>
-        </ul>
         
+                <ul>
+                    <li>River Rafting on Cataract Canyon, a rapid and intense ride (River permit required)</li>
+                    <li>Rock Climbing in islands of the sky</li>
+                    <li>The needles district, rugged terrain perfect for experienced backpackers and hikers </li>
+                </ul>
+                <div id="calmlist">
 
+                    <h3> For the whole family</h3>
+            
+                    </div>
+            
+                       <ul>
+                        <li>Various hiking trails varying in difficulty </li>
+                        <li>Stargazing</li>
+                        <li>Scenic drives such as the Shafer trail</li>
+                       </ul>
+                
+            </div>
+        </div>
+
+    <div id="activities" class="flexwrap">
 
         <div id="Rafting">
-            <img src="https://www.twowanderingsoles.com/wp-content/uploads/2017/07/River-Rafting-in-Canyonlands-National-Park-GYG-1024x683.jpg" alt="River Rafting">
+            <img src="https://www.twowanderingsoles.com/wp-content/uploads/2017/07/River-Rafting-in-Canyonlands-National-Park-GYG-1024x683.jpg" alt="River Rafting" width="100%" >
         </div>
 
-        <div id="calmlist">
 
-        <h3> For the whole family</h3>
 
+        <div id="nightsky">
+        <img src="https://www.nps.gov/cany/planyourvisit/images/RhodesSmartt1_1.jpg?maxwidth=1300&autorotate=false&quality=78&format=webp" alt="nightsky" width="100%">
         </div>
-
-           <ul>
-            <li>Various hiking trails varying in difficulty </li>
-            <li>Stargazing</li>
-            <li>chin scatches</li>
-            <li>Scenic drives such as the Shafer trail</li>
-           </ul>S
-           <br>
-
-        <img src="https://www.nps.gov/cany/planyourvisit/images/RhodesSmartt1_1.jpg?maxwidth=1300&autorotate=false&quality=78&format=webp" alt="nightsky">
-
+        </div>
 
         <h4> Things to keep in mind</h4>
             <p>
@@ -108,6 +120,6 @@
            Only certain areas are accessible to wheelchairs, and depending on location may be completely inaccessible. The “Island in the sky" section is completely accessible, while “The Needles” have little to offer and “The Maze” is completely inaccessible. If visiting in a wheelchair or with somebody in a wheelchair make sure to research. 
             </p>
 
-
+            <img src="https://images.squarespace-cdn.com/content/v1/6386355cefa1aa7a84f4a956/1670079894775-AF9WZVDDNMXP6CF9AS5A/image-asset.jpeg?format=2500w" alt="crowds">
      </body>
 </html>
